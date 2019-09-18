@@ -2,7 +2,7 @@ import keras
 from keras.models import *
 from keras.layers import *
 import keras.backend as K
-
+import numpy as np
 
 from .config import IMAGE_ORDERING
 from .model_utils import get_segmentation_model , resize_image
